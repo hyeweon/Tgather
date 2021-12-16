@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:id="@+id/itemNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="10sp"
+        android:text="1"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/firstTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:maxLines="2"
+        android:textSize="10sp"
+        android:text="00:00\n공연명"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/secondTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:maxLines="2"
+        android:textSize="10sp"
+        android:text="00:00\n공연명"/>
+</LinearLayout>
